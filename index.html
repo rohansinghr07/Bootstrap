@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IndiCulture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="home" class="home">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100 z-3 mt-4 ">
+            <div class="container px-4">
+                <a class="navbar-brand fw-bold" href="#">IndiCulture</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto gap-3">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#culture">Culture</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#festivals">Festivals</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tourism">Tourism</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero">
+            <div id="carouselExampleAutoplaying" class="carousel slide hero-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="culture_img.jpg" class="d-block w-100" alt="culture_img">
+                        <div class="carousel-caption d-flex flex-column justify-content-center h-100 pt-5">
+                            <h1 class="display-4 fw-bold">A Living Civilization</h1>
+                            <p class="lead">Traditions, art, languages, and values passed through generations.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="festival-img.jpg" class="d-block w-100" alt="festival-img">
+                        <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                            <h1 class="display-4 fw-bold">A Land That Celebrates Together</h1>
+                            <p class="lead">Festivals of color, faith, seasons, and unity across regions.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="tourism-img.png" class="d-block w-100" alt="tourism-img">
+                        <div class="carousel-caption d-flex flex-column justify-content-center h-100">
+                            <h1 class="display-4 fw-bold">A Journey Through Timeless Landscapes</h1>
+                            <p class="lead">From Himalayas to beaches, deserts to heritage cities.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section id="culture" class="culture text-white py-5" style="background-color: #1A1919;">
+        <div class="container">
+
+            <h1 class="display-4 fw-bold text-start mb-4">
+                Culture & Heritage
+            </h1>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 justify-content-center">
+                <div class="col">
+                    <div class="card bg-dark text-white shadow-sm border-secondary">
+                        <img src="culture-temple.jpg" class="card-img-top" style="height:400px; object-fit:cover;">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Indian temples reflect centuries of devotion, architecture,
+                                and philosophy that shape spiritual life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white shadow-sm border-secondary">
+                        <img src="culture-handicraft.jpg" class="card-img-top" style="height:400px; object-fit:cover;">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Indian handicrafts preserve regional traditions through
+                                skilled craftsmanship and artistic expression.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-dark text-white shadow-sm border-secondary">
+                        <img src="culture-yoga.jpg" class="card-img-top" style="height:400px; object-fit:cover;">
+                        <div class="card-body">
+                            <p class="card-text">
+                                Yoga represents India’s holistic approach to physical,
+                                mental, and spiritual well-being.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="festivals" class="festivals bg-dark text-white py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold text-center mb-5">
+                Festivals
+            </h1>
+
+            <div class="row justify-content-center text-center g-4">
+                <div class="col-lg-4">
+                    <img src="diwali.jpg" alt="Diwali" class="rounded-circle mb-3" width="300" height="300"
+                        style="object-fit: cover;">
+                    <h2 class="fw-normal">Diwali</h2>
+                    <p>
+                        Diwali, the festival of lights, symbolizes the victory of light
+                        over darkness and is celebrated with joy and devotion.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="eid.jpg" alt="Eid" class="rounded-circle mb-3" width="300" height="300"
+                        style="object-fit: cover;">
+                    <h2 class="fw-normal">Eid</h2>
+                    <p>
+                        Eid reflects gratitude and unity, bringing people together
+                        through prayer, charity, and shared celebrations.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="christmas.jpg" alt="Christmas" class="rounded-circle mb-3" width="300" height="300"
+                        style="object-fit: cover;">
+                    <h2 class="fw-normal">Christmas</h2>
+                    <p>
+                        Christmas spreads messages of love and peace, celebrated
+                        with warmth, decorations, and festive spirit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tourism" class="Tourism bg-black text-white py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-5">Tourism</h1>
+
+            <div class="row featurette align-items-center mb-5">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                        Heritages
+                    </h2>
+                    <p class="lead">
+                        India’s heritage and temples showcase centuries of devotion,
+                        architectural brilliance, and cultural depth. These sacred
+                        landmarks connect visitors to the spiritual soul of the nation.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <video class="w-100 rounded shadow" autoplay muted loop playsinline>
+                        <source src="heritage.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette align-items-center mb-5">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                        Mountains
+                    </h2>
+                    <p class="lead">
+                        From snow-covered peaks to peaceful valleys, India’s mountains
+                        offer breathtaking scenery and adventure. A perfect escape
+                        for nature lovers and explorers.
+                    </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <video class="w-100 rounded shadow" autoplay muted loop playsinline>
+                        <source src="mountains.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette align-items-center">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                        Beaches
+                    </h2>
+                    <p class="lead">
+                        India’s coastline is blessed with stunning beaches,
+                        golden sands, and vibrant coastal culture. Ideal for
+                        relaxation, water sports, and unforgettable sunsets.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <video class="w-100 rounded shadow" autoplay muted loop playsinline>
+                        <source src="beaches.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container mt-5">
+        <p class="float-end"><a href="#home">Back to top</a></p>
+        <p>©Rohan 2025–2026 Company, Inc.</p>
+    </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+</body>
+</html>
